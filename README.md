@@ -1,12 +1,32 @@
-# React + Vite
+Portfólio Pessoal - Samuel Luiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um site de portfólio pessoal desenvolvido como uma SPA (Single Page Application) com o objetivo de apresentar informações sobre mim, meus projetos, habilidades e formas de contato. A proposta é oferecer uma experiência fluida e moderna para recrutadores e visitantes interessados no meu trabalho.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Interface 100% responsiva
+- 🌙 Alternância entre tema claro e escuro (Dark Mode)
+- 🧭 Navegação suave entre seções
+- 🛠️ Código limpo e organizado com ESLint
+- 📱 Design otimizado para mobile e desktop
 
-## Expanding the ESLint configuration
+## 📂 Estrutura de Componentes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **About** — seção sobre mim
+- **Projects** — projetos desenvolvidos
+- **Skills** — principais tecnologias que domino
+- **Contact** — formulário e formas de contato
+- **DarkMode** — alternância entre temas
+- **Navbar** — navegação com rolagem suave entre seções
+
+## 🚀 Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|------------|-----------|
+| **React 19** | Biblioteca principal da interface |
+| **Vite** | Ferramenta de build rápida com HMR |
+| **Tailwind CSS v4** | Estilização moderna com classes utilitárias |
+| **React Router DOM** | Gerenciamento de rotas e seções |
+| **React Scroll** | Rolagem suave para navegação |
+| **React Icons** | Ícones populares como componentes |
+| **ESLint** | Análise estática e padronização de código |
