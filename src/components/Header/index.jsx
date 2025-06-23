@@ -48,7 +48,7 @@ export default function Header() {
            dark:hover:bg-light dark:hover:text-dark'
           >
             <Link to='contact' smooth={true} duration={500}>
-              Contact
+              Contato
             </Link>
           </button>
 
