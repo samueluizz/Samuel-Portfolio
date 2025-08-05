@@ -1,11 +1,31 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import DarkMode from './DarkMode';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import LogoLight from '../../assets/SL-light.png';
+import LogoDark from '../../assets/SL-dark.png';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDark, setIsDark] = useState(false);
   const HEADER_HEIGHT = -80;
+
+  useEffect(() => {
+    const observer = new MutationObserver(() => {
+      setIsDark(document.documentElement.classList.contains('dark'));
+    });
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class'],
+    });
+
+    setIsDark(document.documentElement.classList.contains('dark'));
+
+    return () => observer.disconnect();
+  }, []);
+
+  const logoSrc = isDark ? LogoLight : LogoDark;
 
   const sections = [
     { id: 'about', label: 'Sobre' },
@@ -22,7 +42,7 @@ export default function Header() {
       <nav className='flex justify-between items-center gap-4'>
         <div className='cursor-pointer text-bold text-2xl'>
           <Link to='hero'>
-            <span className='text-3xl font-bold'>Samuel Luiz</span>
+            <img src={logoSrc} alt='logo' className='w-25' />
           </Link>
         </div>
         <ul className='hidden md:flex space-x-6'>

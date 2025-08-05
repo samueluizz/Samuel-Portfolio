@@ -16,3 +16,20 @@
     clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
   }
 }
+
+.swiper-pagination-bullet {
+  width: 25px !important;
+  height: 25px !important;
+  margin: 0 10px !important;
+  border: 1px solid #fefae0 !important;
+  background: #504e50 !important;
+  opacity: 0.5 !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: #000000 !important;
+  border: 1px solid #fefae0 !important;
+  transform: scale(1) !important;
+}
