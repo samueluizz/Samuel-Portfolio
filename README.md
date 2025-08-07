@@ -2,13 +2,17 @@ Portfólio Pessoal - Samuel Luiz
 
 Este projeto é um site de portfólio pessoal desenvolvido como uma SPA (Single Page Application) com o objetivo de apresentar informações sobre mim, meus projetos, habilidades e formas de contato. A proposta é oferecer uma experiência fluida e moderna para recrutadores e visitantes interessados no meu trabalho.
 
+##DEPLOY
+
+https://samuel-portfolio-snowy.vercel.app/
+
 ## ✨ Funcionalidades
 
-- ✅ Interface 100% responsiva
-- 🌙 Alternância entre tema claro e escuro (Dark Mode)
-- 🧭 Navegação suave entre seções
-- 🛠️ Código limpo e organizado com ESLint
-- 📱 Design otimizado para mobile e desktop
+- Interface 100% responsiva
+- Alternância entre tema claro e escuro (Dark Mode)
+- Navegação suave entre seções
+- Código limpo e organizado com ESLint
+- Design otimizado para mobile e desktop
 
 ## 📂 Estrutura de Componentes
 
